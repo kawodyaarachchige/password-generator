@@ -1,0 +1,100 @@
+
+#pwdpane:hover{
+    -fx-text-fill: #b24a58;
+
+}
+#upperCaseCheckBox, #lowerCaseCheckBox, #symbolCheckBox, #numberCheckBox{
+    -fx-cursor: hand;
+}
+.check-box .box {
+    -fx-background-color: transparent; /* Set background color of the checkbox */
+    -fx-border-color: #b24a58; /* Set border color of the checkbox */
+}
+.check-box:hover .box {
+    -fx-background-color:white; /* Set background color of the checkbox */
+    -fx-border-color: #b24a58;
+}
+
+.check-box:selected .mark {
+    -fx-background-color: #b24a58; /* Set background color of the checkbox */
+    -fx-border-color: black;
+}
+/*#upperCaseCheckBox:selected .mark {
+    -fx-background-color: #b24a58;
+}
+#upperCaseCheckBox:selected .box{
+    -fx-background-color: white;
+    -fx-border-color: #b24a58;
+}
+#lowerCaseCheckBox:selected .box{
+    -fx-background-color: white;
+    -fx-border-color: #b24a58;
+}
+#lowerCaseCheckBox:selected .mark {
+    -fx-background-color: #b24a58;
+}
+#symbolCheckBox:selected .box{
+    -fx-background-color: white;
+    -fx-border-color: #b24a58;
+}
+#symbolCheckBox:selected .mark {
+    -fx-background-color: #b24a58;
+}
+#numberCheckBox:selected .box{
+    -fx-background-color: white;
+    -fx-border-color: #b24a58;
+}
+#numberCheckBox:selected .mark {
+    -fx-background-color: #b24a58;
+}*/
+#lengthSlider{
+    -fx-background-color: transparent;
+    -fx-background-radius: 5px;
+    -fx-border-radius: 5px;
+    -fx-border-color: #b24a58;
+    -fx-border-width: 2px;
+    -fx-padding: 5px;
+    -fx-cursor: hand;
+}
+#lengthSlider .thumb{
+    -fx-background-color: #b24a58;
+}
+#generateButton{
+    -fx-background-color: #b24a58;
+    -fx-background-radius: 5px;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 15px;
+    -fx-font-family: "Baloo 2 SemiBold";
+    -fx-cursor: hand;
+    -fx-border-radius: 5px;
+    -fx-border-color: white;
+    -fx-padding: 5px;
+}
+#generateButton:hover{
+    -fx-background-color: transparent;
+    -fx-background-radius: 5px;
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+    -fx-font-size: 15px;
+    -fx-font-family: "Baloo 2 SemiBold";
+    -fx-cursor: hand;
+    -fx-border-radius: 5px;
+    -fx-border-color: #b24a58;
+    -fx-padding: 5px;
+}
+#generateButton:pressed{
+    -fx-background-color: #b24a58;
+}
+#passwordField{
+    -fx-background-color: transparent;
+    -fx-background-radius: 5px;
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+    -fx-font-size: 15px;
+    -fx-prompt-text-fill: #b24a58;
+    -fx-font-family: "Baloo 2 SemiBold";
+    -fx-border-radius: 5px;
+    -fx-border-color: #b24a58;
+    -fx-padding: 5px;
+}
