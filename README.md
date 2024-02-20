@@ -18,14 +18,6 @@ This project is a JavaFX application that generates random passwords based on us
 
 ![App Screenshot](https://imgur.com/puJb03q.png)
 
-
-## Contributing 😏
-
-Contributions are welcome! Please fork the repository and create a pull request with your proposed changes.
-
-
-
-
 ## License 🌚
 
 This project is licensed under the MIT License.
